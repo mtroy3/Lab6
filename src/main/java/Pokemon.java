@@ -45,26 +45,26 @@ public class Pokemon {
      * Hit points can be initialized to between 1 and 50 and decrement as the game plays. The game
      * will end once hitPoints drops below 1.
      */
-    private int hitPoints;
+    public int hitPoints;
 
     /**
      * This Pokemon's attack level.
      * <p>
      * Users have up to 50 points to split between attack level and defense level.
      */
-    private int attackLevel;
+    public int attackLevel;
 
     /**
      * This Pokemon's defense level.
      * <p>
      * Users have up to 50 points to split between attack level and defense level.
      */
-    private int defenseLevel;
+    public int defenseLevel;
 
     /**
      * This Pokemon's name.
      */
-    private String name;
+    public String name;
 
     /**
      * A 6 sided dice used to calculate attack damage.
